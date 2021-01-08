@@ -7,7 +7,7 @@ public class PrintShape {
 		}
 		
 		for (int j = 0; j < size; j++) {
-			System.out.print("L");
+			System.out.print("L );
 		}
 	}
 

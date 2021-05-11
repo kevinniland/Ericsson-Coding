@@ -1,6 +1,9 @@
 package ericsson;
 
 public class Factorial {
+	/**
+	* This didn't come up for me
+	*/
 	public int solution(int N, int K) {
 		// write your code in Java SE 8
 		int minus = N - K;

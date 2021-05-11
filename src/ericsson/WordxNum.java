@@ -1,7 +1,7 @@
 package ericsson;
 
 public class WordxNum {
-	public void multiply(String stringVal, int numVal) {
+	public int multiply(String stringVal, int numVal) {
 		int num = 0;
 		
 		switch(stringVal) {
@@ -23,7 +23,9 @@ public class WordxNum {
 		
 		int result = num * numVal;
 		
-		System.out.println("Result (" + stringVal + " x " + numVal + "): " + result);
+		// System.out.println("Result (" + stringVal + " x " + numVal + "): " + result);
+
+		return result;
 	}
 	
 	public static void main(String[] args) {

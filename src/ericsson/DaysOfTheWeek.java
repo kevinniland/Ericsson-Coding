@@ -1,7 +1,7 @@
 package ericsson;
 
 public class DaysOfTheWeek {
-	public void getDay(String currentDay, int dayNum) {
+	public String getDay(String currentDay, int dayNum) {
 		String[] days = { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };
 		int currDay = 0;
 		
@@ -40,6 +40,8 @@ public class DaysOfTheWeek {
 		}
 		
 		System.out.println("Final day: " + days[currDay - 1] + ", final day num: " + currDay);
+
+		return days[currDay - 1];
 	}
 	
 	public static void main(String[] args) {

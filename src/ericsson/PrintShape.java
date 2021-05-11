@@ -1,14 +1,19 @@
 package ericsson;
 
 public class PrintShape {
-	public void printShape(int size) {
+	public String printShape(int size) {
+		String res = "";
+
 		for (int i = 0; i < size - 1; i++) {
-			System.out.println("L");
+			res += "L\n";
 		}
 		
 		for (int j = 0; j < size; j++) {
-			System.out.print("L );
+			res += "L";
 		}
+
+		// System.out.println(res);
+		return res;
 	}
 
 	public static void main(String[] args) {
